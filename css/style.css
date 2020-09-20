@@ -4,7 +4,7 @@
 }
 
 .header {
-    height: 1150px;
+    height: 95px;
     width: 100%;
 }
 
@@ -26,20 +26,19 @@
 
 .haeder_phone_number_1:after {
     display: block;
-	position: absolute;
-	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
-	width: 0;/*задаём длинну линии до наведения курсора*/
-	height: 2px; /*задаём ширину линии*/
-	background-color: #00a650; /*задаём цвет линии*/
-	content: "";
-	transition: width 0.3s ease-out; /*задаём время анимации*/
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #00a650;
+    content: "";
+    transition: width 0.3s ease-out;
 }
 
 .haeder_phone_number_1:hover:after,
 haeder_phone_number_1:focus:after {
-	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+    width: 100%;
 }
-
 
 .header_phone_number_2 {
     font-family: 'Lato', sans-serif;
@@ -64,7 +63,7 @@ haeder_phone_number_1:focus:after {
     margin-top: 5px;
     margin-left: 85px;
     opacity: 80%;
-    transition-duration: 0.6s;
+    transition-duration: 0.4s;
 }
 
 .div_icon img:hover {
@@ -99,13 +98,6 @@ haeder_phone_number_1:focus:after {
     line-height: 0.5;
 }
 
-
-/*
-.div_nav ul li {
-    transform: 1s;
-}
-*/
-
 .div_nav a:hover {
     opacity: 100%;
     transition-duration: 0.6s;
@@ -133,4 +125,87 @@ a:focus:after {
     width: 100%;
     height: 95px;
     background-color: lightblue;
+}
+
+
+/*            footer         */
+
+.footer {
+    height: 125px;
+    width: 100%;
+    background-color: #DCE0E2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.footer_logo {
+    margin-left: 50px;
+}
+
+.footer_nav {
+    /*    margin-right: 75px;*/
+    margin-left: 1020px;
+}
+
+.footer_logo img {
+    width: 75px;
+}
+
+.footer_logo a {}
+
+.footer_nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer_nav ul,
+li {
+    list-style: none;
+    margin-top: 3px;
+}
+
+.footer_nav_1 {
+    margin-right: 50px;
+}
+
+.footer_logo_1 img {
+    width: 75px;
+}
+
+.footer_logo_1 a {}
+
+.footer_nav_1 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer_nav_1 ul,
+li {
+    list-style: none;
+    margin-top: 3px;
+}
+
+.footer_li {
+    transition-duration: 0.3s;
+}
+
+.footer_li:hover {
+    transform: translateX(10px);
+}
+
+.footer_li:hover {
+    transform: translateX(10px);
+}
+
+.footer_logo img {
+    opacity: 85%;
+    transition-duration: 0.5s;
+}
+
+.footer_logo img:hover {
+    opacity: 100%;
 }

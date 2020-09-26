@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -103,6 +104,9 @@ haeder_phone_number_1:focus:after {
     transition-duration: 0.6s;
 }
 
+
+/*
+
 .div_nav a:after {
     background-color: black;
     display: block;
@@ -116,6 +120,7 @@ haeder_phone_number_1:focus:after {
 a:focus:after {
     width: 100%;
 }
+*/
 
 .div_nav {
     margin-right: 100px;
@@ -126,6 +131,12 @@ a:focus:after {
     height: 95px;
     background-color: lightblue;
 }
+
+
+/*            footer         */
+
+
+/*            footer         */
 
 
 /*            footer         */
@@ -208,4 +219,113 @@ li {
 
 .footer_logo img:hover {
     opacity: 100%;
+}
+
+
+/*    !EXPIREMNCE:;    */
+
+
+/*    !EXPIREMNCE:;    */
+
+
+/*    !EXPIREMNCE:;    */
+
+
+/*    !EXPIREMNCE:;    */
+
+
+/*    !EXPIREMNCE:;    */
+
+
+/*    !EXPIREMNCE:;    */
+
+.div_nav li ul {
+    position: absolute;
+    /*    min-width: 150px;*/
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+    display: none;
+    transition-duration: 0.5s;
+}
+
+.div_nav li > ul li {
+/*    border: 1px solid black;*/
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 19px;
+    padding-right: 19px;
+    margin-left: 40px;
+    margin: 0;
+    margin-top: 2px;
+    background-color: #DCE0E2;
+    transition: all 0.3s ease;
+    
+}
+
+.div_nav li > ul li:last-child {
+    border-bottom: 1px solid silver;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.div_nav li > ul li:hover {
+/*    background-color: #c7c8c9;*/
+        transition-duration: 0.5s;
+
+}
+
+.div_nav li:hover > ul {
+    display: block;
+    transition-duration: 0.5s;
+}
+
+
+
+.div_nav li ul a {
+    transition-duration: 0.5s;
+}
+
+#ul_n2 {
+    padding-top: 19px;
+}
+
+.main {
+    width: 100%;
+}
+
+.when_i {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+
+    font-size: 40px;
+}
+
+.when_we {
+    display: flex;
+    justify-content: space-around;
+}
+
+.when_we_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.when_we_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.when_we_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
